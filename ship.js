@@ -1,7 +1,8 @@
-const Ship = (shipLength, shipHits, hasSunk) => {
+const Ship = (shipLength) => {
   const length = shipLength;
-  const hitIndex = shipHits;
-  const sunk = hasSunk;
+  const hitIndex = new Array(shipLength);
+  hitIndex.fill(0);
+  const sunk = false;
   const hit = (index) => {
     for (let i = 0; i < length; i++) {
       if (i === index) {
