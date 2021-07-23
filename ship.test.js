@@ -1,4 +1,4 @@
-const battleship = require("./index");
+const battleship = require("./ship");
 
 const someShip = battleship.Ship(4, [0, 0, 1, 0], false);
 
