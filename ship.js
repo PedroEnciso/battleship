@@ -26,7 +26,4 @@ const Ship = (shipLength, shipHits, hasSunk) => {
   };
 };
 
-// functions to export
-module.exports = {
-  Ship,
-};
+module.exports = Ship;

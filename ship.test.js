@@ -1,6 +1,6 @@
-const battleship = require("./ship");
+const ship = require("./ship");
 
-const someShip = battleship.Ship(4, [0, 0, 1, 0], false);
+const someShip = ship(4, [0, 0, 1, 0], false);
 
 describe("testing Ship object", () => {
   test("test Ship.hit()", () => {
